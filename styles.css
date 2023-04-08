@@ -1,0 +1,164 @@
+/* Margenes superiores e inferiores  */
+header, footer, section
+{
+    margin-bottom: 60px;
+}
+/* Baner */
+.baner
+{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 20px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #39F40B;
+}
+/* Titulo del Baner */
+header h1
+{
+    font-size: 32px;
+    text-shadow: 0 2 px;
+    color: #39F40B;
+    font-family: sans-serif;
+    place-items: center;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+/* Parrafo del */
+header p
+{
+    font-size: 18px;
+    text-shadow: 0 2 px;
+    color: #39F40B;
+    font-family: sans-serif;
+    padding-left: 60px;
+}
+/* Imagen del baner */
+header img
+{
+    background-image: url();
+    margin-left: auto;
+    padding-right: 60px;
+    padding: auto;
+    border-radius: 20px;
+}
+/* Barra de menu */
+nav
+{
+    background-color: #39F40B;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    border-style: outset;
+    border-width: 2px;
+    margin-top: 15px;
+}
+/* Lista */
+.container
+{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    list-style: none;
+}
+/*Separacion de lista */
+li
+{
+    margin: 0.75rem;
+}
+/* Opciones de pagina */
+section
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    margin-top: 20px;
+    border-style: dotted;
+}
+/* Barra lateral */
+aside
+{
+    /* display: flex; */
+    width: 25%;
+    /* height: 40%; */
+    border-style: groove;
+    border-color:blueviolet;
+}
+/* login */
+.login
+{
+    border-style: inset;
+    border-color: black;
+    border-radius: 20px;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+}
+/* titulo login */
+p
+{
+    text-align: center;
+}
+/* Formulario */
+.inicio-login
+{
+    display: flex;
+    flex-direction: column;
+}
+/* Boton de registro */
+button
+{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 40%;
+    cursor: pointer;
+}
+
+/* Productos */
+article
+{
+    height: 300px;
+    width: 100%;
+    border-style: solid;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+article h3
+{
+    text-align: center;
+}
+
+article img
+{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+.box
+{
+    border: 5px solid darkblue;
+    height: auto;
+    margin: auto;
+}
+
+footer
+{
+    text-align: center;
+    border-style: double;
+    border-color: aqua;
+    width: 80%;
+    margin: auto;
+}
