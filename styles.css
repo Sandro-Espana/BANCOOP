@@ -1,8 +1,4 @@
-/* Margenes superiores e inferiores  */
-header, footer, section
-{
-    margin-bottom: 60px;
-}
+
 /* Baner */
 .baner
 {
@@ -78,16 +74,11 @@ section
     margin: auto;
     padding: auto;
     margin-top: 20px;
-    border-style: dotted;
 }
 /* Barra lateral */
 aside
 {
-    /* display: flex; */
     width: 25%;
-    /* height: 40%; */
-    border-style: groove;
-    border-color:blueviolet;
 }
 /* login */
 .login
@@ -95,51 +86,74 @@ aside
     border-style: inset;
     border-color: black;
     border-radius: 20px;
-    align-items: center;
-    padding: 15px;
-    font-weight: bold;
+    padding: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
 }
-/* titulo login */
+/* Identendo input */
+.dato
+{
+    width: 150px;
+    margin-left: 10px;
+    /* margin: 15px; */
+}
+/* Identando margenes de label con input */
+.etiqueta
+{
+    width: 50%;
+}
+
 p
 {
     text-align: center;
 }
-/* Formulario */
-.inicio-login
-{
-    display: flex;
-    flex-direction: column;
-}
+
 /* Boton de registro */
 button
 {
     margin-top: 25px;
     margin-bottom: 20px;
-    margin-left: 50px;
-    width: 40%;
+    margin-left: 100px;
+    width: 30%;
     cursor: pointer;
 }
-
+/* Tarjetas de la barra lateral */
+.tarjetas
+{
+    height: 200px;
+    background-color: #39F40B;
+    border-style: groove;
+    margin: 20px;
+    text-align: center;
+}
 /* Productos */
 article
 {
-    height: 300px;
-    width: 100%;
+    height: 350px;
+    width: 90%;
     border-style: solid;
     border-radius: 20px;
-    padding-top: 20px;
+    /* padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-bottom: 20px; */
+    /* margin: auto; */
+    /* margin-bottom: 15px; */
 }
 
+.lado
+{
+    display: flex;
+    padding: 5px;
+    padding-right: 5px;
+}
+/* Titulo de productos */
 article h3
 {
     text-align: center;
 }
-
+/* Imagenes de productos */
 article img
 {
     width: 100%;
@@ -149,11 +163,11 @@ article img
 
 .box
 {
-    border: 5px solid darkblue;
-    height: auto;
-    margin: auto;
+    /* height: 15px; */
+    margin-left: auto;
 }
 
+/* Pie de pagina */
 footer
 {
     text-align: center;

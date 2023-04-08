@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="styles.css">
         <title>BANCOOP</title>
     </head>
-
     <body>
         <!--ENCABEZADO DE LA PAGINA -->
         <header class="baner">
@@ -19,12 +18,11 @@
         </header>
         <!--MENU DE LA PAGINA -->
         <nav>
-            <!-- <h1>MENU DE LA PAGINA </h1> -->
             <ul class="container">
-                <li><a href="#">Credito</a></li>
-                <li><a href="#">Leasing</a></li>
-                <li><a href="#">Ahorros</a></li>
-                <li><a href="#" >Servicio Al cliente</a></li>
+                <li><a href="Creditos.html">Creditos</a></li>
+                <li><a href="Leasing.html">Leasing</a></li>
+                <li><a href="Ahorros.html">Ahorros</a></li>
+                <li><a href="ServicioCliente.html" >Servicio Al cliente</a></li>
             </ul>
         </nav>
         <section>
@@ -33,44 +31,56 @@
                 <div class="login">
                     <p>INGRESE A TU CUENTA </p>
                     <form class="inicio-login">
-                        <label for="">Cuenta</label>
-                        <input type="text" placeholder="Numero de cuenta">
-                        <label for="" >Tipo</label>
-                        <input type="text" placeholder="123456">
-                        <label for="">Clave</label>
-                        <input type="password" placeholder="********">
+                        <div class="lado">
+                            <label  for="" class="etiqueta">Cuenta:</label>
+                            <input type="text" placeholder="Numero de cuenta" class="dato">
+                        </div>
+                        <div class="lado">
+                            <label for="" class="etiqueta" >Tipo:</label>
+                            <input type="text" placeholder="123456" class="dato">
+                        </div>
+                        <div class="lado">
+                            <label for="" class="etiqueta">Clave:</label>
+                            <input type="password" placeholder="********" class="dato">
+                        </div>
                         <button>Ingresar</button>
                     </form>
                 </div>
-                <div>
+                <div class="tarjetas">
                     <h1>TRANSACCIONES</h1>
+                    <p>Banca Personal</p>
+                    <p>Banca Empresarial</p>
+                    <p>Banca Seguros</p>
+                    <p>Pago de Facturas</p>
                 </div>
-                <div>
+                <div class="tarjetas">
                     <h1>TARJETA DE CREDITO</h1>
+                    <p>Tarjeta Visa</p>
+                    <p>Tarjeta mastercard</p>
                 </div>
             </aside>
             <div class="box">
-                <article class="cuadricula">
-                    <h3>Ahorro</h3>
+                <article>
+                    <h3>Ahorro Estudiantil</h3>
                     <img src="img/savings.jpg" alt="ahorro">
-                    <p> <a href="/">Ahorra</a> para tu futuro</p>
+                    <p> <a href="Ahorros.html">Ahorra</a> para tu futuro</p>
                 </article>
-                <article class="cuadricula">
+                <article>
                     <h3>Viaja hoy paga mañana</h3>.
                     <img src="img/travel.jpg" alt="Viaje">
-                    <p> <a href="/">Compra</a> el carro de tus sueños</p>
+                    <p> <a href="">Conoce</a> el lugar de tus sueños</p>
                 </article>
             </div>
             <div class="box">
-                <article class="cuadricula">
-                    <h3>Credito Vehiculos</h3>
+                <article>
+                    <h3>Credito Vehiculo</h3>
                     <img src="img/vehicle.jpg" alt="Vehiculo">
-                    <p> <a href="/">Compra</a> el carro de tus sueños</p>
+                    <p> <a href="CreditosVehiculos.html">Compra</a> el carro de tus sueños</p>
                 </article>
-                <article class="cuadricula">
+                <article>
                     <h3>Credito Hipotecario</h3>
                     <img src="img/house.jpeg" alt="Casa">
-                    <p> <a href="/">Compra</a> la casa de tus sueños</p>
+                    <p> <a href="CreditoHipotecario.html">Compra</a> la casa de tus sueños</p>
                 </article>
             </div>
         </section>
