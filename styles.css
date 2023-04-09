@@ -131,7 +131,7 @@ button
 article
 {
     height: 350px;
-    width: 90%;
+    width: 120%;
     border-style: solid;
     border-radius: 20px;
     /* padding-top: 0px;
@@ -139,7 +139,7 @@ article
     padding-right: 20px;
     padding-bottom: 20px; */
     /* margin: auto; */
-    /* margin-bottom: 15px; */
+    margin-bottom: 25px;
 }
 
 .lado
@@ -164,9 +164,40 @@ article img
 .box
 {
     /* height: 15px; */
-    margin-left: auto;
+    margin-left: 9%;
+    /* margin-top: 20px; */
+    margin-bottom: 25px;
+
+}
+/* Centrando la pagina de creditos */
+.identar-creditos
+{
+    width: 66%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.img-credito1
+{
+    width: 40%;
+    height: 250px;
+    margin-left: 35px;
+}
+.img-credito2
+{
+    width: 40%;
+    height: 250px;
+    margin-left: 35px;
+}
+.main-credito
+{
+    display: flex;
 }
 
+.parrado-credito
+{
+    text-align: center;
+    margin: auto;
+}
 /* Pie de pagina */
 footer
 {
