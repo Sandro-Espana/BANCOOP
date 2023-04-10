@@ -203,8 +203,14 @@ article img
 footer
 {
     text-align: center;
-    border-style: double;
-    border-color: aqua;
     width: 80%;
     margin: auto;
 }
+
+#correo
+{
+    border-top: 2px solid rgb(22, 22, 22);
+    padding-top: 20px;
+}
+
+
